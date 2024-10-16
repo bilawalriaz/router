@@ -46,6 +46,7 @@ export const config = {
     signIn: "/login",
     verifyRequest: "/check-email",
   },
+  trustHost: true,
 } satisfies NextAuthConfig;
 
 export const { auth, handlers, signIn, signOut } = NextAuth(config);
