@@ -10,7 +10,7 @@ export default defineConfig({
   out: "lib/db/drizzle",
   dialect: "postgresql",
   dbCredentials: {
-    url: 'postgres://default:L3gfFzdU4KyB@ep-wandering-surf-99229463.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require',
+    url: 'postgresql://default:L3gfFzdU4KyB@ep-wandering-surf-99229463.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require',
   },
   verbose: true,
   strict: true,
