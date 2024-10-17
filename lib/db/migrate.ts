@@ -9,8 +9,8 @@ import { db } from ".";
  */
 async function main() {
   try {
-    const dev = process.env.NODE_ENV !== "production";
-    loadEnvConfig("./", dev);
+    //const dev = process.env.NODE_ENV !== "production";
+    //loadEnvConfig("./", dev);
 
     await migrate(db, { migrationsFolder: "lib/db/drizzle" });
     console.log("Migrations complete");
